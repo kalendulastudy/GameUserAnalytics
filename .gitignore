@@ -1,0 +1,19 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+# Temporary files and generated data
+*.log
+.DS_Store
+Thumbs.db
+results/tmp/
+data/processed/*.csv
+!data/processed/.gitkeep
